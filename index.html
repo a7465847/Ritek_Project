@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>錸洋科技股份有限公司</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
+    <style>
+        .breadcrumb{
+            background-color : transparent ;
+        }
+
+        .bot{
+            border: 5px solid; 
+        }
+
+        .header-carousel-item{
+            height: 350px;
+        }
+
+        .bg-cover{
+            background-size : cover ;
+            background-position : center center ;
+        }
+
+        .navbar-nav{
+            font-size : 16px ;
+            padding-right: 20px; 
+        }
+
+        .img-responsive{
+            max-width: 100% ;
+            height: auto;
+        }
+
+        h1{
+            font-size: 30px ;
+            padding-left: 10px;
+            margin-bottom:0px;
+        }
+        
+        .box{
+            font-size :2rem ;
+            padding-top: 10px ;
+            padding-left: 15px ;
+            display: flex;
+        }
+
+        .font-weight-bold{
+            border-width: 2px;
+        }
+
+
+
+        @media (max-width: 768px){
+            .box{
+                font-size :1.5rem ;
+            }
+            .img-responsive{
+                max-width: 100% ;
+                height: auto;
+            }
+        }
+        @media (max-width: 768px){
+            .navbar-brand{
+                flex-direction: column;
+            }
+        }
+        @media (max-width: 768px){
+            .navbar-nav>a{
+               
+                margin-top:5px;
+            }
+        }
+
+
+
+      
+
+                    
+    </style>
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <a class="navbar-brand d-flex align-self-end" href="#">
+            <img class="img-responsive "   src="./img/logo2.png" alt="">
+            <div class="box  text-white">
+                <i class="fas fa-solar-panel "></i>
+                <h1 class="">錸洋科技</h1>
+            </div>
+        </a>
+       
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <div class="navbar-nav">
+          <!-- <ul class="navbar-nav"> -->
+            <!-- <li class="nav-item active"> -->
+                <a class="btn btn-secondary mr-2" href="#" role="button">首頁</a>
+            <!-- </li> -->
+            <!-- <li class="nav-item active"> -->
+                <a class="btn btn-secondary mr-2" href="#" role="button">最新消息</a>
+            <!-- </li> -->
+            <!-- <li class="nav-item active"> -->
+                <a class="btn btn-secondary mr-2" href="#" role="button">關係企業</a>
+            <!-- </li> -->
+          <!-- </ul> -->
+            </div>
+          <form class="form-inline my-2 my-lg-0  ">
+            <a href="" class="btn btn-outline-danger font-weight-bold mr-2 " data-toggle="modal" data-target="#loginModal">登入</a>
+            <a href="" class="btn btn-outline-danger font-weight-bold" data-toggle="modal" data-target="#registerModal">註冊</a>
+          </form>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item header-carousel-item bg-cover active" style="background-image:url(./img/Solar1.jpeg)">
+          </div>
+          <div class="carousel-item header-carousel-item bg-cover" style="background-image:url(./img/Solar2.jpg)">
+          </div>
+          <div class="carousel-item header-carousel-item bg-cover" style="background-image:url(./img/Solar3.jpg)">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <section class="bg-light py-5 text-dark">
+        <div class="container" >
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="mb-2"><i class="fas fa-seedling fa-5x"></i></div>
+                    <h1 class="font-weight-bold">無碳再生能源</h1>
+                    <p class="font-weight-bolder">在太陽照射的範圍內，不論在陸地或海上，只要是空曠且日照充足的地區，
+                        皆能建造太陽能發電裝置，讓太陽供應「免費」的能源。甚至可以將太陽能電板，加裝在建築上產生隔熱的作用，
+                        有效降低建築耗能，並且分散大規模停電的風險。因此不少民眾會選擇將廠房，或自家的屋頂出租給專業的太陽能業者如中租企業，
+                        除了可以售電給台電外，其收入的一部分還能轉為屋頂租金，從中賺取長期利潤，從建置規劃到售後維護皆由中租企業專業團隊負責，省去許多麻煩。 
+                    </p>
+                </div>
+            
+                <div class="col-md-4">
+                    <div class="mb-2"><i class="fas fa-charging-station fa-5x"></i></div>
+                    <h1 class="font-weight-bold">綠能發電</h1>
+                    <p class="font-weight-bolder">台灣的中南部地區日照量豐富，有太陽能發電容量潛力，
+                        中南部地區因政府推動方案，掀起全民種電風潮。此外，台灣海峽地區擁有世界級優質的豐富風能資源，
+                        可建置容量5GW以上離岸風力發電場。台灣首座具商業規模苗栗外海離岸風電場，預計在年底前正式商轉，
+                        而台灣第一支本土離岸風電水下基樁，亦於上個月在台北港啟用，這些成就在在寫下台灣離岸風電發展史的里程碑，
+                        亦代表著台灣完成走向綠能轉型必經挑戰的關鍵首步。
+                    </p>
+                </div>
+    
+                <div class="col-md-4">
+                    <div class="mb-2"><i class="fas fa-solar-panel fa-5x"></i> </div>
+                    <h1 class="font-weight-bold">太陽能模組</h1>
+                    <p class="font-weight-bolder">矽晶型(Crystalline-Silicon；C-Si) 太陽能模組的原料
+                        供應穩定、生產技術成熟，是目前全球市場主流產品。
+                        太陽光電產業鏈中，負責將太陽光能轉換為電能的太
+                        陽能電池，是模組產品中最受矚目的環節之一，錸德
+                        科技生產的矽晶型太陽能模組，包括其組成的太陽能
+                        電池均為台灣製造，提供最佳品質保證。錸德矽晶型
+                        太陽能模組擁有高效率、高穩定性、高耐久性及較低
+                        的功率衰減，並提供客製化服務，可以滿足客戶多樣
+                        化的需求。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-secondary ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4560.511171308151!2d121.03507459950521!3d24.874776075787796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346830e052601c75%3A0x4d1ce6b9823c8cee!2z6Yy45a-256eR5oqA!5e0!3m2!1szh-TW!2stw!4v1599397366713!5m2!1szh-TW!2stw" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-md-6" >
+                    <h2 class="font-weight-bolder py-1 text-white" >地理位置</h2>
+                    <p class="font-weight-bolder text-white">自行開車: 中山高速公路湖口/新竹工業區交流道下，約需五分鐘即可到達</p>
+                    <p class="font-weight-bolder text-white">火　　車: 湖口或新豐車站下車，轉搭計程車約需10分鐘即可到達</p>
+                    <p class="font-weight-bolder text-white">高　　鐵: 竹北高鐵站下車，搭乘火車至湖口或新豐車站，轉搭計程車約需10分鐘即可到達</p>
+                    <p class="font-weight-bolder text-white">聯絡電話： +886-3-5989999 (總機)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 登入 -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-info bg-info text-white">
+          <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">登入</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form class="needs-validation" novalidate>
+                <div class="form-group">
+                  <label for="exampleInputEmail1" class="font-weight-bold">帳號 (Username or email address)</label>
+                  <input  type="text" class="form-control" id="exampleInputEmail1"  placeholder="請輸入帳號" required>
+                  <div class="invalid-feedback">
+                    帳號不得為空
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1" class="font-weight-bold">密碼 (Password)</label>
+                  <input type="text" type="password" class="form-control" id="exampleInputPassword1" placeholder="請輸入密碼" required>
+                  <div class="invalid-feedback">
+                    密碼不得為空
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">登入</button>
+            </form>
+            <script>
+                // Example starter JavaScript for disabling form submissions if there are invalid fields
+                (function() {
+                  'use strict';
+                  window.addEventListener('load', function() {
+                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                    var forms = document.getElementsByClassName('needs-validation');
+                    // Loop over them and prevent submission
+                    var validation = Array.prototype.filter.call(forms, function(form) {
+                      form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                          event.preventDefault();
+                          event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                      }, false);
+                    });
+                  }, false);
+                })();
+            </script>
+        </div>
+        <div class="modal-footer">
+            <a href="#"  class="mr-auto font-weight-bold" data-dismiss="modal" data-toggle="modal" data-target="#registerModal">切換到註冊</a>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+    <!-- 註冊 -->
+<div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-info text-white ">
+          <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">註冊</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+</div> 
+    
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
